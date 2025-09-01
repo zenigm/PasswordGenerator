@@ -31,14 +31,14 @@ public class CreatePassword {
         Random rd = new Random();                                // random generator
         char[] re = all2.toCharArray();                          // full charset as array
 
-        // If user chose "yes"
+        // If user chose "yes".
         if (response == yes) {
             System.out.println("All Done but,Do you want a num pass or word pass or both?");
             System.out.println("(3) for num , (4) for word , (5) for both");
 
             pass = sc.nextInt();
 
-            // NUMERIC password generation using factorial size
+            // NUMERIC password generation using factorial size.
             if (pass == num) {
                 System.out.print("Okay! Please enter Max length of pass you want: ");
                 int Max = sc.nextInt();
