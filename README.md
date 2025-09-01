@@ -1,16 +1,4 @@
-```
-# 🔐 PasswordGenerator (CLI-Based in Java)
-
-```
-
-██████╗  █████╗ ███████╗███████╗██╗    ██╗ ██████╗  █████╗ ██████╗ ███████╗
-██╔══██╗██╔══██╗╚══███╔╝██╔════╝██║    ██║██╔════╝ ██╔══██╗██╔══██╗██╔════╝
-██████╔╝███████║  ███╔╝ █████╗  ██║ █╗ ██║██║  ███╗███████║██████╔╝█████╗
-██╔═══╝ ██╔══██║ ███╔╝  ██╔══╝  ██║███╗██║██║   ██║██╔══██║██╔═══╝ ██╔══╝
-██║     ██║  ██║███████╗███████╗╚███╔███╔╝╚██████╔╝██║  ██║██║     ███████╗
-╚═╝     ╚═╝  ╚═╝╚══════╝╚══════╝ ╚══╝╚══╝  ╚═════╝ ╚═╝  ╚═╝╚═╝     ╚══════╝
-
-````
+### 🔐 PasswordGenerator (CLI-Based in Java)
 
 ---
 
@@ -23,18 +11,18 @@ The goal? → Build a **password generator in Java** using nothing but the basic
 - Some questionable logic
 
 I ended up creating **two versions**:
-1. A clean, working file → **`CreatePassword.java`**
-2. A buggy experiment → **`CreatePasswordWithMinMax.java`**
+1. A clean, working file → **`main.java`**
+2. A buggy experiment → **`SubsituteFile.java`**
 
 Why keep the broken one?  
-Because broken code teaches more than flawless code. And it’s fun to show *what not to do*.  
+Because.I just wished that someone who  
 
 ---
 
 ## 📂 Project Structure
 
-- `CreatePassword.java` → ✅ Stable file, generates passwords with a **Max length** option.  
-- `CreatePasswordWithMinMax.java` → ⚠️ Experimental version that tries Min + Max… and fails.  
+- `main.java` → ✅ Stable file, generates passwords with a **Max length** option.  
+- `SubsituteFile.java` → ⚠️ Experimental version that tries Min + Max… and fails.  
 - `README.md` → This monster document explaining everything.  
 
 ---
@@ -122,26 +110,11 @@ Lesson: Always reset state or you’ll stack data accidentally.
 
 Feel free to:
 
-* Fix bugs
-* Add features
+* Fix bugs and Add features
 * Improve randomness
 * Make the output prettier
 
 Open PRs, create issues, break it further — it’s all welcome.
-
----
-
-## 👀 Why Two Versions?
-
-Because coding isn’t just about *final products*.
-It’s also about:
-
-* Experimenting
-* Failing
-* Learning why things break
-* Documenting the mess
-
-That’s why this repo holds **both the clean and messy code**.
 
 ---
 
@@ -154,10 +127,5 @@ That’s why this repo holds **both the clean and messy code**.
 
 ---
 
-## 📝 License
-
-MIT License → Do whatever you want. Just don’t blame me if your password generator fails and your fridge gets hacked.LOL
-
----
 
 
